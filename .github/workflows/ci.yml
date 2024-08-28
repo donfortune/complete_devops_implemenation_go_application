@@ -38,7 +38,7 @@ jobs:
       with:
         version: v1.56.2
 
-  Push-docker-image:
+  Push:
     runs-on: ubuntu-latest
     needs: build
     steps:
